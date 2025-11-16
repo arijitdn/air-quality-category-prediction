@@ -1,4 +1,3 @@
-# train.py (IMPROVED VERSION)
 import pandas as pd
 import numpy as np
 import torch
@@ -42,7 +41,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # ----------------------------------------------------------
-# SENTENCE EMBEDDINGS (BEST FOR CLASSICAL ML)
+# SENTENCE EMBEDDINGS
 # ----------------------------------------------------------
 print("\nGenerating sentence embeddings...\n")
 
@@ -89,7 +88,7 @@ print("\nClassical ML models saved!")
 
 
 # ----------------------------------------------------------
-# BERT-BASE TRANSFORMER (VERY STRONG MODEL)
+# BERT-BASE TRANSFORMER
 # ----------------------------------------------------------
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 
