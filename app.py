@@ -1,4 +1,3 @@
-# app.py (BEST VERSION)
 import json
 import joblib
 import torch
